@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginTop="5sp"
+                android:text="@string/time_dist_acc_label"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="5"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/time_dist_acc_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:layout_marginTop="5sp"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/min_label"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginTop="5sp"
+                android:text="@string/speed_label"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:textAlignment="center"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="5"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/speed_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="5sp"
+                    android:layout_marginTop="5sp"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/kmph_label"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginTop="5sp"
+                android:text="@string/api_key_label"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/api_key_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginStart="5sp"
+                android:layout_marginEnd="5sp"
+                android:layout_marginTop="5sp"
+                android:textSize="20sp"
+                android:inputType="textNoSuggestions"
+                android:layout_weight="1"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="310sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="@string/save_button_label" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

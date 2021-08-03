@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/new_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:text="@string/suggested_new_route_name" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_button_label"
+            android:backgroundTint="@color/gray" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RoutePlanner</string>
+    <string name="title_map">Map</string>
+    <string name="title_routes">Routes</string>
+    <string name="title_settings">Settings</string>
+    <string name="time_dist_acc_label">Max time between points</string>
+    <string name="speed_label">Moving speed</string>
+    <string name="api_key_label">Open Weather Api Key</string>
+    <string name="start_button_label">Start</string>
+    <string name="save_button_label">Save</string>
+    <string name="add_button_label">Add</string>
+    <string name="min_label">min</string>
+    <string name="kmph_label">km/h</string>
+    <string name="osm_contributors" translatable="false">
+        © <a href="https://www.openstreetmap.org/copyright/en"> Open Street Map </a> contributors
+    </string>
+    <string name="suggested_new_route_name">New Route</string>
+    <string name="last_refreshed_label">last refreshed</string>
+    <string name="timestamp_label">time</string>
+    <string name="temp_label">temperature</string>
+    <string name="pop_label">prob. of prec.</string>
+    <string name="wind_spd_label">wind speed</string>
+    <string name="wind_deg_label">wind direction</string>
+    <string name="weather_name_label">weather</string>
+    <string name="celsius_label">°C</string>
+    <string name="percent_label">%</string>
+    <string name="mps_label">m/s</string>
+    <string name="delete_label">Delete</string>
+</resources>
